@@ -1,0 +1,28 @@
+{
+  "name": "carList",
+  "version": "1.0.0",
+  "description": "car list app",
+  "main": "index.js",
+  "repository": "https://github.com/faustogregori1985/carlist.git",
+  "author": "faustogregori1985 <faustogregori1985@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "7",
+    "babel-preset-env": "^1.7.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.25.1",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --history-api-fallback --inline --progress"
+  },
+  "dependencies": {
+    "babel-plugin-transform-custom-element-classes": "^0.1.0",
+    "css-js-loader": "^0.4.1",
+    "lodash": "^4.17.11",
+    "moment": "^2.22.2",
+    "style-loader": "^0.23.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
